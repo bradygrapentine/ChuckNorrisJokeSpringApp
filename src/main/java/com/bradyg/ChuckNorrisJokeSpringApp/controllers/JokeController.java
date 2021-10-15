@@ -10,7 +10,6 @@ public class JokeController {
 
     private final JokeService jokeService;
 
-    //@AutoWired not needed with constructor injection
     public JokeController(JokeService jokeService) {
         this.jokeService = jokeService;
     }
